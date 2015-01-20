@@ -1,0 +1,452 @@
+<!DOCTYPE HTML>
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                     ...`     ......`     ...`   ...     ....     ...    `..` `....``                   
+                                    +MMMm     NMMNNMMms`  NMMh   hMm    .MMMM-    dMM.   yMM: +MMMNMNdo`                
+                                   `NMhMM+    NMM``-hMM+  NMMMo  hMm    yMmdMd    dMM.   yMM: +MMs.:sMMd`               
+                                   oMM.yMN`   NMM``.hMM/  NMhdM/ hMm   -MM+/MM/   dMM.   yMM: +MMo   hMM/               
+                                  .NMh`:MMs   NMMmNMMh:   NMy.NN-hMm   hMN.`mMm   dMM.   yMM: +MMo   sMM+               
+                                  yMMmmmMMN.  NMM-:dMN/   NMy :MmdMm  :MMNmmNMM+  dMM.   hMM- +MMo   dMM:               
+                                 -MMh:::/MMy  NMM  `hMM/  NMy  +MMMm  mMN::::mMN` oMMy-./NMN` +MMy:/hMMh                
+                                 ymm-    ymm. mmm   `hmm: dms   ymmd /mmo    /mm+ `omNNNNmh-  /mmmmmdy/`                
+                                 ...     `..` ...    `..` ..`   `..` `..      ..`   `.--.`    `....`                    
+
+                       `:shdddy.  hhhhhys+.    :sdddho.  yh/      +hy`hhhhhhhhhh. /hh:   hhy  `hhhhhhhhh  :hhhhhys/`    
+                      `hMMho+sd-  MMNooyNMN-  oNMdosNMm- dMh      hMd`ssshMMdsss. oMM+   MMN  .MMNssssss  +MMdoohMMd    
+                      sMMs`   `   MMN   yMM+ .MMN`  /MMh oMN /mm/ mMs    +MMo     oMMo```MMN  .MMm`````   +MMs  `NMM`   
+                      mMM-        MMNsshNmy` /MMh   `MMN :MM.hMMd`MM:    +MMo     oMMNmmmMMN  .MMMmmmmm/  +MMdssdMm+    
+                      mMM-        MMMyhMMh`  :MMh   .MMN `MM+MyhM+MM`    +MMo     oMMs:::MMN  .MMm/////.  +MMmymMMo     
+                      oMMh`   .`  MMN  /MMh` `NMN.  oMMy  dMNM--MNMm     +MMo     oMM+   MMN  .MMd        +MMs `yMMo    
+                       oNMNdhdN-  MMN   /MMd` :NMNhdMMh`  oMMd  dMMs     +MMo     oMM+   MMN  .MMMdddddd` +MMs  `yMMo   
+                        `/osso+`  +++    :++:  `/oss+-    .++-  -++-     -++-     -++-   +++  `+++++++++  -++-   `+++`  
+
+                                         Copyright 2014 - Arnaud P. Crowther - All Rights Reserved.
+                                                        Made with love and Brackets.io
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<html>
+    <head>
+        <title>Arnaud Crowther - Curriculum Vitae</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css" type="text/css">
+        <link rel="stylesheet" href="css/tooltipster.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="src/map.js" type="text/javascript"></script>
+        <script src="src/plax.js" type="text/javascript"></script>
+        <script src="src/tooltip.js" type="text/javascript"></script>
+        <script src="src/init.js" type="text/javascript"></script>
+    </head>
+    <body ontouchstart="">
+        
+        <!-- MOBILE NAV -->
+        <div id="main-container">
+            <div id="mobilenav">
+                <div id="mbl-btn-profile" class="item"><i class="fa fa-user"></i><span class="tab-text">Arnaud</span></div>
+                <div id="mbl-btn-resume" class="item"><i class="fa fa-file-text"></i><span class="tab-text">Resume</span></div>
+                <div id="mbl-btn-work" class="item"><i class="fa fa-briefcase"></i><span class="tab-text">Portfolio</span></div>
+                <div id="mbl-btn-contact" class="item"><i class="fa fa-envelope"></i><span class="tab-text">Contact</span></div>
+            </div>
+            
+            <!-- FULL NAV -->
+            <div id="nav">
+                <div id="header">
+                    <div class="profile plax"></div>
+                    <div class="background plax"></div>
+                </div>
+                <div id="btn-profile" class="item">Arnaud<i class="fa fa-user"></i></div>
+                <div id="btn-resume" class="item">Resume<i class="fa fa-file-text"></i></div>
+                <div id="btn-work" class="item">Portfolio<i class="fa fa-briefcase"></i></div>
+                <div id="btn-contact" class="item">Contact<i class="fa fa-envelope"></i></div>
+            </div>
+            
+            <div id="content">
+                <div class="inner">
+                    
+                    <!-- PAGE:PROFILE -->
+                    <div id="page-profile">
+                        <div class="title animated fadeInDownSmall">
+                            I am <strong>Arnaud Crowther</strong><br>
+                            Developer, Designer, and Entrepreneur
+                        </div>
+                        <div class="seperator1"></div>
+                        <div id="mobile-profile-info" class="animated flipInXSmall">
+                            <div class="text">
+                                I like to make things. 
+                                I have four years of experience creating dynamic and responsive interfaces in different programming environments. 
+                                Some of my favorite tools include Swift, SASS, JQuery, and PHP.
+                            </div>
+                            <div class="seperator2"></div>
+                            <div class="title-small">
+                                Personal Info
+                            </div>
+                            <div class="seperator3"></div>
+                            <div class="tile">
+                                <div class="left">Name</div>
+                                <div class="right">Arnaud Peter Crowther</div>
+                            </div>
+                            <div class="tile">
+                                <div class="left">City</div>
+                                <div class="right">Ferndale, MI</div>
+                            </div>
+                            <div class="tile">
+                                <div class="left">Date of Birth</div>
+                                <div class="right">November 02, 1989</div>
+                            </div>
+                            <div class="tile">
+                                <div class="left">Phone</div>
+                                <div class="right">(248) 845-8098</div>
+                            </div>
+                            <div class="tile">
+                                <div class="left">Email</div>
+                                <div class="right">hello@arnaudcrowther.com</div>
+                            </div>
+                            <div class="tile">
+                                <div class="left">Nationality</div>
+                                <div class="right">Fran&ccedil;ais</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PAGE:WORK -->
+                    <div id="page-work">
+                        <div class="title animated fadeInDownSmall">
+                            <strong>Portfolio</strong>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div id="portfolio">
+                            <div class="work animated flipInYSmall cyberou">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>CyberOU Homepage</h4>
+                                        <p>Oakland University Cyber Security Club</p>
+                                        <a onclick="OpenInNewTab('http://cyberou.com');">cyberou.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work animated flipInYSmall boris">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>Boris Crowther</h4>
+                                        <p>Industrial Design Portfolio</p>
+                                        <a onclick="OpenInNewTab('http://boriscrowther.com');">boriscrowther.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work animated flipInYSmall val">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>Valerie Besset MD</h4>
+                                        <p>Professional Landing Page</p>
+                                        <a onclick="OpenInNewTab('http://valeriebesset.com');">valeriebesset.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work animated flipInYSmall social">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>Oakland University</h4>
+                                        <p>Social Media Page</p>
+                                        <a onclick="OpenInNewTab('http://oakland.edu/social');">oakland.edu/social</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work animated flipInYSmall academ">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>Oakland University</h4>
+                                        <p>Academics Page</p>
+                                        <a onclick="OpenInNewTab('http://oakland.edu/academics');">oakland.edu/academics</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work animated flipInYSmall vizor">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>VizorTeam LLC</h4>
+                                        <p>Company Landing Page</p>
+                                        <a onclick="OpenInNewTab('http://vizorteam.com');">vizorteam.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="work animated flipInYSmall roses">
+                                <div class="overlay">
+                                    <div class="innertext">
+                                        <h4>Rose's Fine Food</h4>
+                                        <p>Restaurant Homepage</p>
+                                        <a onclick="OpenInNewTab('http://rosesfinefood.com');">rosesfinefood.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PAGE:RESUME -->
+                    <div id="page-resume">
+                        <div class="title animated fadeInDownSmall">
+                            <strong>Resume</strong>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="title-small">
+                            Education
+                        </div>
+                        <div class="seperator3"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">Oakland University - Rochester MI</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2012 - 2014</div>
+                            <div class="desc">
+                                B.S. Computer Information Technology (GPA 3.5)<br>
+                                School of Engineering and Computer Science (May 2015)
+                            </div>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">Western Michigan University - Kalamazoo MI</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2009 - 2011</div>
+                            <div class="desc">General Education<br>School of Communication</div>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="title-small">
+                            Skills
+                        </div>
+                        <div class="seperator3"></div>
+                        <div class="skills animated fadeInDownSmall">
+                            <ul id="skill">
+                                <li><span class="bar web"></span><h3>Web Development</h3></li>
+                                <li><span class="bar network"></span><h3>Network Administration</h3></li>
+                                <li><span class="bar obj"></span><h3>Object Oriented Programming</h3></li>
+                                <li><span class="bar design"></span><h3>Graphic Design</h3></li>
+                            </ul>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="title-small">
+                            Work History
+                        </div>
+                        <div class="seperator3"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">Hart Medical Equipment / Henry Ford Health Products - Southfield MI</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2014</div>
+                            <div class="desc">Information Systems Support Specialist / Web Developer</div>
+                            <ul class="bullets">
+                                <li>Design, develop, and maintain corporate intranet portal</li>
+                                <li>Manage help-desk ticketing system supporting 300+ employees across 29 locations</li>
+                                <li>Provide system administration on, and oversees daily operation of all servers</li>
+                                <li>Provide training of support staff on standard IT operating procedures</li>
+                                <li>Travel to assist staff and perform installations throughout Michigan</li>
+                                <li>Coordinate equipment maintenance, vendor relations, and ensure regulatory compliance from HIPAA, HITECH Act, and PCI standards</li>
+                            </ul>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">School of Business Administration OU - Rochester MI</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2013 - 2014</div>
+                            <div class="desc">System Administrator / ASP.NET Developer</div>
+                            <ul class="bullets">
+                                <li>Create new security administration policies on lab machines</li>
+                                <li>Manage existing databases for faculty and perform backup operations</li>
+                                <li>Ensure functionality of all networked hardware in the building</li>
+                                <li>Manage SBA home page, and answer IT requests from faculty and staff</li>
+                                <li>Develop staff directory in ASP</li>
+                            </ul>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">School of Engineering and Computer Science OU - Rochester MI</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2012</div>
+                            <div class="desc">Software Developer / Interface Designer</div>
+                            <ul class="bullets">
+                                <li>Use Composer Vehicle to collect photo, GPS, and XML data</li>
+                                <li>Analyze data, integrate photos and locations</li>
+                                <li>Design, build, maintain Silverlight web service</li>
+                                <li>Program, test, debug code in different environments</li>
+                                <li><a href="http://srms.secs.oakland.edu/vrplayer.aspx">srms.secs.oakland.edu/vrplayer</a></li>
+                            </ul>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">SpiritWear - Rochester MI</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2011</div>
+                            <div class="desc">Screen Printer / Designer</div>
+                            <ul class="bullets">
+                                <li>Design screen printing logo art with clients</li>
+                                <li>Organize production work schedules for each phase of the printing process</li>
+                                <li>Maintain printing equipment and perform minor repairs and preventive maintenance</li>
+                            </ul>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="title-small">
+                            Organizations
+                        </div>
+                        <div class="seperator3"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">Oakland University Cyber Security Club</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2014</div>
+                            <div class="desc">
+                                President / Co-Founder<br>
+                                <ul class="bullets">
+                                    <li><a href="http://cyberou.com">www.cyberou.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">VizorTeam LLC</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2014</div>
+                            <div class="desc">
+                                Chief Operating Officer / Co-Founder<br>
+                                <ul class="bullets">
+                                    <li><a href="http://vizorteam.com">www.vizorteam.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="title-small">
+                            Competitions
+                        </div>
+                        <div class="seperator3"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">Google Glass App Development Competition (1st Place)</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2014</div>
+                            <div class="desc">
+                                <ul class="bullets">
+                                    <li><a href="http://www.oakland.edu/view_news.aspx?sid=13&nid=11253&archived=1">Oakland University press release</a><br></li>
+                                    <li><a href="http://www.macombdaily.com/technology/20140321/ou-students-set-their-sights-on-google-glass-competition">Macomb Daily news article</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div class="history animated fadeInRightSmall">
+                            <div class="label">Code Michigan - Detroit (3rd Place)</div>
+                            <div class="date"><i class="fa fa-calendar"></i>2014</div>
+                            <div class="desc">
+                                <ul class="bullets">
+                                    <li><a href="http://www.michigan.gov/codemichigan/0,5752,7-331-70161-341053--,00.html">Contest entry</a><br></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- PAGE:CONTACT -->
+                    <div id="page-contact">
+                        <div class="title animated fadeInDownSmall">
+                            <strong>Contact</strong>
+                        </div>
+                        <div class="seperator2"></div>
+                        <div id="map_canvas" class="animated flipInXSmall"></div>
+                        <div class="animated fadeInDownSmall">
+                            <div class="title-small">
+                                Get in touch
+                            </div>
+                            <div class="text">
+                                Looking for more information, or interested in collaborating on a project?<br>Send me a message.
+                            </div>
+                            <div class="contact-widgets">
+                                <div class="widget">
+                                    <i class="fa fa-home"></i> Ferndale, MI
+                                </div>
+                                <div class="widget">
+                                    <i class="fa fa-phone"></i> (248) 845-8098
+                                </div>
+                                <div class="widget">
+                                    <i class="fa fa-envelope"></i> <a href="mailto:hello@arnaudcrowther.com">hello@arnaudcrowther.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seperator2"></div>
+                        <form id="contact-form" class="animated fadeInDownSmall" action="php/contact.php" method="post">
+                            <div class="col left">
+                                <input type="text" placeholder="Name" name="first">
+                                <input type="email" placeholder="Email" name="last">
+                                <input type="tel" placeholder="Telephone" name="email">
+                            </div>
+                            <div class="col right">
+                                <textarea placeholder="Message" name="message"></textarea>
+                            </div>
+                            <div class="button-cont">
+                                <button name="submit" type="submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- FOOTER -->
+                <div id="footer">
+                    &copy; 2014 Arnaud Crowther
+                    <div class="right">
+                        <i title="Facebook" class="tooltip fa fa-facebook-square" onclick="OpenInNewTab('https://www.facebook.com/profile.php?id=1248120367');"></i>
+                        <i title="LinkedIn" class="tooltip fa fa-linkedin-square" onclick="OpenInNewTab('http://www.linkedin.com/pub/arnaud-crowther/60/283/a3b/');"></i>
+                        <i title="Google+" class="tooltip fa fa-google-plus-square" onclick="OpenInNewTab('http://google.com/+ArnaudCrowther');"></i>
+                        <i title="GitHub" class="tooltip fa fa-github-square" onclick="OpenInNewTab('https://github.com/arnaudcrowther');"></i>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </body>
+</html>
