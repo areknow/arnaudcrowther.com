@@ -1,4 +1,4 @@
-/* line 10, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+/* line 10, /Applications/MAMP/htdocs/arnaud/css/style.scss */
 html {
   width: 100%;
   height: 100%;
@@ -7,18 +7,18 @@ html {
   background-color: #d9dbdd;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-/* line 18, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+/* line 18, /Applications/MAMP/htdocs/arnaud/css/style.scss */
 body {
   margin: 0;
   padding: 0; }
 
-/* line 22, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+/* line 22, /Applications/MAMP/htdocs/arnaud/css/style.scss */
 #main-container {
   width: 1000px;
   height: 100%;
   margin: auto;
   padding-top: 50px; }
-  /* line 28, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 28, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   #main-container #mobilenav {
     display: none;
     width: 100%;
@@ -30,33 +30,33 @@ body {
     background-color: #2c373b;
     opacity: 0.99;
     -webkit-box-shadow: 0 0 10px black; }
-    /* line 40, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 40, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #mobilenav .item {
       display: inline-block;
       width: 25%;
       margin-right: -4px;
       padding: 10px 0;
       outline: 1px solid #222b2e; }
-      /* line 47, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 47, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #mobilenav .item .tab-text {
         padding-left: 10px; }
-    /* line 52, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 52, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #mobilenav .item:active {
       -webkit-tap-highlight-color: rgba(52, 130, 188, 0.35); }
-  /* line 57, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 57, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   #main-container #nav {
     display: inline-block;
     width: 280px;
     margin-right: -4px;
     vertical-align: top; }
-    /* line 63, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 63, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #nav #header {
       background-color: #cbcfd3;
       height: 280px;
       width: 100%;
       position: relative;
       overflow: hidden; }
-      /* line 72, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 72, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #nav #header .profile {
         width: 150px;
         height: 150px;
@@ -71,7 +71,7 @@ body {
         z-index: 1;
         box-shadow: 0 0 50px rgba(0, 0, 0, 0.47);
         border-radius: 150px; }
-      /* line 87, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 87, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #nav #header .background {
         position: absolute;
         width: 550px;
@@ -83,7 +83,7 @@ body {
         background-image: url(../res/header2.jpg);
         background-size: cover;
         background-position: center; }
-    /* line 101, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 101, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #nav .item {
       padding: 25px;
       text-align: right;
@@ -95,18 +95,18 @@ body {
       background-size: 200% 100%;
       transition: all 0.3s ease;
       cursor: pointer; }
-      /* line 113, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 113, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #nav .item .fa {
         margin-left: 20px; }
-    /* line 117, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 117, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #nav .item:hover {
       color: #2c383c;
       background-color: #3482bc;
       background-position: right bottom; }
-    /* line 122, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 122, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #nav .selected {
       color: #3482bc; }
-  /* line 126, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 126, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   #main-container #content {
     display: inline-block;
     width: 720px;
@@ -116,105 +116,105 @@ body {
     vertical-align: top;
     z-index: 2;
     position: relative; }
-    /* line 136, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 136, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #content .inner {
       padding: 30px; }
-      /* line 139, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 139, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .title {
         font-size: 32px;
         font-weight: 100;
         color: #606060; }
-        /* line 144, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 144, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .title strong {
           color: #0f0f0f; }
-      /* line 148, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 148, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .title-small {
         color: #2c383c;
         margin: 20px 0;
         font-size: 24px;
         font-weight: 300; }
-      /* line 154, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 154, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .seperator1 {
         height: 3px;
         width: 70px;
         background-color: #3482bc;
         margin: 20px 0 40px 0; }
-      /* line 160, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 160, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .seperator2 {
         height: 1px;
         width: 100%;
         background-color: #dbdbdb;
         margin: 20px auto; }
-      /* line 166, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 166, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .seperator3 {
         height: 6px;
         width: 50px;
         background-color: #3482bc;
         margin: 20px 0; }
-      /* line 172, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 172, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .text {
         font-size: 17px;
         font-weight: 400;
         line-height: 29px;
         color: #828282; }
-      /* line 178, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 178, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .tile {
         border: 1px solid #cbcbcb;
         display: inline-block;
         margin: 10px 20px 20px 0; }
-        /* line 183, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 183, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .tile .left {
           display: inline-block;
           padding: 6px 10px;
           color: #9b9b9b; }
-        /* line 188, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 188, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .tile .right {
           display: inline-block;
           background-color: #ebebeb;
           padding: 6px 10px; }
-        /* line 193, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 193, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .tile a {
           text-decoration: none;
           color: inherit; }
-      /* line 199, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 199, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .history .label {
         font-size: 16px;
         font-weight: bold;
         color: #2c383c;
         font-size: 16px;
         margin: 5px 0; }
-      /* line 206, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 206, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .history .date {
         color: #2c383c;
         font-size: 14px;
         margin: 5px 0; }
-        /* line 211, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 211, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .history .date .fa {
           margin-right: 10px;
           color: #939393; }
-      /* line 217, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 217, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .history .desc {
         color: #6c6c6c;
         font-size: 15px;
         margin: 5px 0;
         line-height: 20px; }
-      /* line 223, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 223, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .history a {
         text-decoration: none;
         color: inherit; }
-        /* line 227, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 227, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .history a:hover {
           color: #5e6977; }
-      /* line 231, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 231, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .history .bullets {
         padding: 0;
         padding-left: 18px;
         margin-top: 12px; }
-      /* line 236, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 236, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .history .bullets li {
         color: #828282;
         font-size: 13px; }
-      /* line 242, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 242, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills #skill {
         list-style: none;
         color: #9a9a9a;
@@ -223,85 +223,85 @@ body {
         position: relative;
         line-height: 2em;
         padding: 0 0; }
-      /* line 251, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 251, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills #skill li {
         margin-bottom: 30px;
         background-color: #f5f5f5;
         height: 10px; }
-      /* line 256, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 256, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills #skill li h3 {
         position: relative;
         top: -30px;
         font-weight: normal;
         font-size: 13px; }
-        /* line 262, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 262, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .skills #skill li h3 .percent {
           float: right; }
-      /* line 266, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 266, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills .bar {
         height: 10px;
         position: absolute; }
-      /* line 270, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 270, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills .web {
         width: 100%;
         -moz-animation: graphic-design 2s ease-out;
         -webkit-animation: graphic-design 2s ease-out;
         background-color: #33BCB2; }
-      /* line 276, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 276, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills .network {
         width: 90%;
         -moz-animation: html-css 2s ease-out;
         -webkit-animation: html-css 2s ease-out;
         background-color: #33A3BC; }
-      /* line 282, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 282, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills .obj {
         width: 65%;
         -moz-animation: jquery 2s ease-out;
         -webkit-animation: jquery 2s ease-out;
         background-color: #3482BC; }
-      /* line 288, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 288, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .skills .design {
         width: 80%;
         -moz-animation: wordpress 2s ease-out;
         -webkit-animation: wordpress 2s ease-out;
         background-color: #333DBC; }
-      /* line 296, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 296, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #map_canvas {
         width: 100%;
         height: 400px; }
-      /* line 300, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 300, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner .contact-widgets {
         font-size: 14px;
         color: #828282;
         margin-top: 20px; }
-        /* line 305, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 305, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .contact-widgets .widget {
           display: inline-block;
           margin-right: 30px; }
-          /* line 309, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 309, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner .contact-widgets .widget .fa {
             margin-right: 10px; }
-          /* line 312, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 312, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner .contact-widgets .widget a {
             text-decoration: none;
             color: inherit; }
-            /* line 316, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 316, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner .contact-widgets .widget a:hover {
               color: #5e6977; }
-      /* line 323, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 323, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #contact-form {
         margin: 0;
         padding: 0;
         width: 100%;
         position: relative; }
-        /* line 329, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 329, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form .col {
           display: inline-block;
           margin: 0;
           margin-right: -4px;
           vertical-align: top;
           box-sizing: border-box; }
-          /* line 336, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 336, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #contact-form .col input {
             height: 52px;
             border-radius: 4px;
@@ -313,7 +313,7 @@ body {
             -webkit-appearance: none;
             box-sizing: border-box;
             display: block; }
-          /* line 348, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 348, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #contact-form .col textarea {
             width: 100%;
             height: 176px;
@@ -325,11 +325,11 @@ body {
             -webkit-appearance: none;
             box-sizing: border-box;
             display: block; }
-        /* line 361, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 361, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form .button-cont {
           width: 100%;
           text-align: right; }
-        /* line 365, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 365, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form button {
           width: 120px;
           height: 43px;
@@ -341,18 +341,18 @@ body {
           cursor: pointer;
           transition: all 0.2s ease;
           position: relative; }
-        /* line 377, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 377, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form button:hover {
           background-color: #5197cb;
           transition: all 0.2s ease; }
-        /* line 382, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 382, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form .left {
           width: 33.3%;
           padding-right: 10px; }
-        /* line 386, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 386, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form .right {
           width: 66.6%; }
-      /* line 391, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 391, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .work {
         width: 211px;
         height: 184px;
@@ -365,307 +365,303 @@ body {
         overflow: hidden;
         cursor: pointer;
         outline: 1px solid #c4c4c4;
-        transition: background-size 0.5s ease-in;
-        -moz-transition: background-size 0.5s ease-in;
-        -ms-transition: background-size 0.5s ease-in;
-        -o-transition: background-size 0.5s ease-in;
-        -webkit-transition: background-size 0.5s ease-in; }
-        /* line 411, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        transition: background-size 0.3s ease-out;
+        -moz-transition: background-size 0.3s ease-out;
+        -ms-transition: background-size 0.3s ease-out;
+        -o-transition: background-size 0.3s ease-out;
+        -webkit-transition: background-size 0.3s ease-out; }
+        /* line 409, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #portfolio .work .overlay {
           position: absolute;
           width: 100%;
           height: 100%;
-          background-color: rgba(0, 0, 0, 0.7);
+          background-color: rgba(0, 0, 0, 0.5);
           z-index: 2;
           opacity: 0;
-          transition: all 0.5s ease; }
-          /* line 421, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          transition: all 0.3s ease-in; }
+          /* line 418, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #portfolio .work .overlay .innertext {
             text-align: center; }
-            /* line 424, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 421, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext h4 {
               font-size: 14px;
               font-weight: bold;
-              color: #b5b5b5;
+              color: #e6e6e6;
               margin: 50px 0 -10px 0; }
-            /* line 431, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 427, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext p {
               font-size: 11px;
               font-style: italic;
-              color: #b5b5b5;
+              color: #e6e6e6;
               margin-bottom: 20px; }
-            /* line 438, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 433, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext a {
-              color: #b5b5b5;
+              color: #e6e6e6;
               text-decoration: none;
               font-size: 12px;
               font-weight: bold;
               text-transform: uppercase;
-              transition: all 0.2s ease;
-              border: 1px solid #b5b5b5;
+              border: 1px solid #e6e6e6;
               border-radius: 3px;
               padding: 4px 8px; }
-            /* line 451, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 444, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext a:hover {
               color: #000;
               background-color: #3482bc;
               border-color: #3482bc;
               transition: all 0.2s ease; }
-        /* line 461, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
-        #main-container #content .inner #portfolio .work .overlay:hover {
-          opacity: 0.9;
-          transition: all 0.5s ease; }
-      /* line 466, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 454, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .work:hover {
-        background-size: 170%;
-        transition: background-size 0.2s ease-in;
-        -moz-transition: background-size 0.2s ease-in;
-        -ms-transition: background-size 0.2s ease-in;
-        -o-transition: background-size 0.2s ease-in;
-        -webkit-transition: background-size 0.2s ease-in; }
-      /* line 474, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        background-size: 170%; }
+        /* line 457, /Applications/MAMP/htdocs/arnaud/css/style.scss */
+        #main-container #content .inner #portfolio .work:hover .overlay:hover {
+          opacity: 1; }
+      /* line 461, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .ss1 {
         background-image: url(../res/ss1.jpg); }
-      /* line 477, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 464, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .boris {
         background-image: url(../res/boris.jpg); }
-      /* line 480, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 467, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .cyberou {
         background-image: url(../res/cyberou.jpg); }
-      /* line 483, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 470, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .val {
         background-image: url(../res/val2.jpg); }
-      /* line 486, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 473, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .social {
         background-image: url(../res/social.jpg); }
-      /* line 489, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 476, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .academ {
         background-image: url(../res/academ.jpg); }
-      /* line 492, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 479, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .vizor {
         background-image: url(../res/vizor.jpg); }
-      /* line 495, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 482, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner #portfolio .roses {
         background-image: url(../res/roses.jpg); }
-    /* line 500, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 485, /Applications/MAMP/htdocs/arnaud/css/style.scss */
+      #main-container #content .inner #portfolio .veggie {
+        background-image: url(../res/veggie.jpg); }
+    /* line 490, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #content #footer {
       padding: 20px 30px;
       background-color: #eee;
       font-size: 12px;
       color: #b9b9b9;
       cursor: default; }
-      /* line 507, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 497, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content #footer .right {
         float: right; }
-      /* line 510, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 500, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content #footer .fa {
         margin-left: 10px;
         cursor: pointer;
         transition: all 0.4s ease; }
-      /* line 515, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 505, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content #footer .fa:hover {
         color: #000; }
 
 @-moz-keyframes graphic-design {
-  /* line 532, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 522, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 532, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 522, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 100%; } }
 
 @-moz-keyframes html-css {
-  /* line 533, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 523, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 533, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 523, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 90%; } }
 
 @-moz-keyframes jquery {
-  /* line 534, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 524, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 534, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 524, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 65%; } }
 
 @-moz-keyframes wordpress {
-  /* line 535, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 525, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 535, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 525, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 80%; } }
 
 @-webkit-keyframes graphic-design {
-  /* line 536, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 526, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 536, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 526, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 100%; } }
 
 @-webkit-keyframes html-css {
-  /* line 537, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 527, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 537, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 527, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 90%; } }
 
 @-webkit-keyframes jquery {
-  /* line 538, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 528, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 538, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 528, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 65%; } }
 
 @-webkit-keyframes wordpress {
-  /* line 539, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 529, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   0% {
     width: 0px; }
 
-  /* line 539, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 529, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   100% {
     width: 80%; } }
 
 @-webkit-keyframes grow {
-  /* line 543, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 533, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   from {
     width: 150px;
     height: 150px; }
 
-  /* line 547, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 537, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   to {
     width: 160px;
     height: 160px; } }
 
 @keyframes infinite-spinning {
-  /* line 555, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 545, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   from {
     transform: rotate(0deg); }
 
-  /* line 558, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 548, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   to {
     transform: rotate(360deg); } }
 
 @media screen and (max-device-width: 1000px), screen and (max-width: 1000px) {
-  /* line 571, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 561, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   #main-container {
     width: 100%;
     padding-top: 50px; }
-    /* line 575, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 565, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #mobilenav {
       display: inline-block; }
-    /* line 579, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 569, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #nav {
       display: none; }
-    /* line 583, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 573, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #content {
       width: 100%; }
-      /* line 586, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 576, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner {
         padding: 30px; }
-        /* line 589, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 579, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #portfolio {
           text-align: left; }
-          /* line 592, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 582, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #portfolio .work {
             width: 230px;
             height: 230px;
             margin-left: 0; }
-            /* line 599, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 589, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext h4 {
               font-size: 20px;
               margin-top: 70px; }
-            /* line 603, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 593, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext p {
               font-size: 16px; }
-            /* line 606, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 596, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext a {
               font-size: 14px;
               padding: 4px; }
  }
 
 @media screen and (max-device-width: 700px), screen and (max-width: 700px) {
-  /* line 626, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+  /* line 616, /Applications/MAMP/htdocs/arnaud/css/style.scss */
   #main-container {
     width: 100%;
     padding-top: 50px; }
-    /* line 630, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 620, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #mobilenav {
       display: inline-block; }
-      /* line 634, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 624, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #mobilenav .item .tab-text {
         display: none; }
-    /* line 640, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 630, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #nav {
       display: none; }
-    /* line 644, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+    /* line 634, /Applications/MAMP/htdocs/arnaud/css/style.scss */
     #main-container #content {
       width: 100%; }
-      /* line 647, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+      /* line 637, /Applications/MAMP/htdocs/arnaud/css/style.scss */
       #main-container #content .inner {
         padding: 10px; }
-        /* line 652, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 642, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .tile a {
           text-decoration: none;
           color: inherit; }
-        /* line 658, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 648, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #map_canvas {
           width: 100%;
           height: 200px; }
-        /* line 663, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 653, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner .contact-widgets {
           font-size: 18px;
           margin-left: 5%; }
-          /* line 667, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 657, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner .contact-widgets .widget {
             display: block;
             margin: 30px 0; }
-        /* line 674, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 664, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form .col {
           width: 100%; }
-          /* line 677, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 667, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #contact-form .col input {
             width: 100%;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box; }
-          /* line 683, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 673, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #contact-form .col textarea {
             width: 100%;
             box-sizing: border-box;
             -webkit-box-sizing: border-box;
             -moz-box-sizing: border-box; }
-        /* line 690, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 680, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #contact-form .left {
           padding: 0; }
-        /* line 695, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+        /* line 685, /Applications/MAMP/htdocs/arnaud/css/style.scss */
         #main-container #content .inner #portfolio {
           text-align: center; }
-          /* line 698, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+          /* line 688, /Applications/MAMP/htdocs/arnaud/css/style.scss */
           #main-container #content .inner #portfolio .work {
             width: 100%;
             height: 300px;
             margin-left: 0; }
-            /* line 705, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 695, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext h4 {
               font-size: 22px;
               margin: 85px 0 -10px 0; }
-            /* line 709, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 699, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext p {
               font-size: 18px; }
-            /* line 712, /Users/Arnaud/Desktop/untitled folder/css/style.scss */
+            /* line 702, /Applications/MAMP/htdocs/arnaud/css/style.scss */
             #main-container #content .inner #portfolio .work .overlay .innertext a {
               font-size: 22px;
               padding: 4px 8px; }

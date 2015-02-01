@@ -66,6 +66,8 @@ function OpenInNewTab(url) {
 $( document ).ready(function() {
     initialize();
     ifMobile();
+	
+	
 
     //regular nav buttons
     $( "#btn-profile" ).click(function() {
@@ -115,4 +117,5 @@ $( document ).ready(function() {
        onlyOne: true,
        trigger: 'hover'
     });
+	
 });

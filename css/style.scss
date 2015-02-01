@@ -393,7 +393,6 @@ body {
                     height: 184px;
                     display: inline-block;
                     margin: 3px;
-//                    background-size: cover;
                     background-size: 150%;;
                     background-position: center;
                     position: relative;
@@ -401,22 +400,20 @@ body {
                     overflow: hidden;
                     cursor: pointer;
                     outline: 1px solid #c4c4c4;
-                    transition: background-size .5s ease-in;
-                    -moz-transition: background-size .5s ease-in;
-                    -ms-transition: background-size .5s ease-in;
-                    -o-transition: background-size .5s ease-in;
-                    -webkit-transition: background-size .5s ease-in;
-                    
-                    
+                    transition: background-size .3s ease-out;
+                    -moz-transition: background-size .3s ease-out;
+                    -ms-transition: background-size .3s ease-out;
+                    -o-transition: background-size .3s ease-out;
+                    -webkit-transition: background-size .3s ease-out;
+					
                     .overlay {
                         position: absolute;
                         width: 100%;
                         height: 100%;
-//                        background-color: $primary-color;
-                        background-color: rgba(0, 0, 0, 0.7);
+                        background-color: rgba(0, 0, 0, 0.5);
                         z-index: 2;
                         opacity: 0;
-                        transition: all .5s ease;
+                        transition: all .3s ease-in;
                         
                         .innertext {
                             text-align: center;
@@ -424,52 +421,42 @@ body {
                             h4 {
                                 font-size: 14px;
                                 font-weight: bold;
-//                                color: #2c383c;
-                                color: #b5b5b5;
+                                color: #e6e6e6;
                                 margin: 50px 0 -10px 0;
                             }
                             p {
                                 font-size: 11px;
                                 font-style: italic;
-//                                color: #2c383c;
-                                color: #b5b5b5;
+                                color: #e6e6e6;
                                 margin-bottom: 20px;
                             }
                             a {
-//                                color: #afafaf;
-                                color: #b5b5b5;
+                                color: #e6e6e6;
                                 text-decoration: none;
                                 font-size: 12px;
                                 font-weight: bold;
                                 text-transform: uppercase;
-                                transition: all .2s ease;
                                 
-                                border: 1px solid #b5b5b5;
+                                border: 1px solid #e6e6e6;
                                 border-radius: 3px;
                                 padding: 4px 8px;
                             }
                             a:hover {
                                 color: #000;
-//                                background-color: #b5b5b5;
                                 background-color: $primary-color;
                                 border-color: $primary-color;
                                 transition: all .2s ease;
                             }
                         }
                     }
-                    
-                    .overlay:hover {
-                        opacity: .9;
-                        transition: all .5s ease;
-                    }
+
                 }
                 .work:hover {
                     background-size: 170%;
-                    transition: background-size .2s ease-in;
-                    -moz-transition: background-size .2s ease-in;
-                    -ms-transition: background-size .2s ease-in;
-                    -o-transition: background-size .2s ease-in;
-                    -webkit-transition: background-size .2s ease-in;
+					
+					.overlay:hover {
+                        opacity: 1;
+                    }
                 }
                 .ss1 {
                     background-image: url(../res/ss1.jpg);
@@ -494,6 +481,9 @@ body {
                 }
                 .roses {
                     background-image: url(../res/roses.jpg);
+                }
+                .veggie {
+                    background-image: url(../res/veggie.jpg);
                 }
             }
         }

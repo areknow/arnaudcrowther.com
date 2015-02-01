@@ -1,7 +1,7 @@
 if( !/MSIE 9.0|Firefox/i.test(navigator.userAgent) ) {
     var currentX = '';
     var currentY = '';
-    var movementConstant = .015;
+    var movementConstant = .0051;
     $(document).mousemove(function(e) {
       if(currentX == '') currentX = e.pageX;
       var xdiff = e.pageX - currentX;
